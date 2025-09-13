@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A18BDE32E6FBB5D00CDAD72 /* LemmmonRestaurant-Ch3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LemmmonRestaurant-Ch3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A18BDF02E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LemmmonRestaurant-Ch3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A18BDFA2E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LemmmonRestaurant-Ch3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA035CC2E723F890014E454 /* LemmmonRestaurant-Ch3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LemmmonRestaurant-Ch3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA035CD2E723F890014E454 /* LemmmonRestaurant-Ch3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LemmmonRestaurant-Ch3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA035CE2E723F890014E454 /* LemmmonRestaurant-Ch3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LemmmonRestaurant-Ch3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +43,11 @@
 		6A18BDFD2E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "LemmmonRestaurant-Ch3UITests";
+			sourceTree = "<group>";
+		};
+		6A18BE0E2E6FBE9300CDAD72 /* Practice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -78,18 +83,11 @@
 				6A18BDE52E6FBB5D00CDAD72 /* LemmmonRestaurant-Ch3 */,
 				6A18BDF32E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3Tests */,
 				6A18BDFD2E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3UITests */,
-				6A18BDE42E6FBB5D00CDAD72 /* Products */,
+				6A18BE0E2E6FBE9300CDAD72 /* Practice */,
+				6AA035CC2E723F890014E454 /* LemmmonRestaurant-Ch3.app */,
+				6AA035CD2E723F890014E454 /* LemmmonRestaurant-Ch3Tests.xctest */,
+				6AA035CE2E723F890014E454 /* LemmmonRestaurant-Ch3UITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		6A18BDE42E6FBB5D00CDAD72 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6A18BDE32E6FBB5D00CDAD72 /* LemmmonRestaurant-Ch3.app */,
-				6A18BDF02E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3Tests.xctest */,
-				6A18BDFA2E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3UITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,12 +107,13 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6A18BDE52E6FBB5D00CDAD72 /* LemmmonRestaurant-Ch3 */,
+				6A18BE0E2E6FBE9300CDAD72 /* Practice */,
 			);
 			name = "LemmmonRestaurant-Ch3";
 			packageProductDependencies = (
 			);
 			productName = "LemmmonRestaurant-Ch3";
-			productReference = 6A18BDE32E6FBB5D00CDAD72 /* LemmmonRestaurant-Ch3.app */;
+			productReference = 6AA035CC2E723F890014E454 /* LemmmonRestaurant-Ch3.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6A18BDEF2E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3Tests */ = {
@@ -137,7 +136,7 @@
 			packageProductDependencies = (
 			);
 			productName = "LemmmonRestaurant-Ch3Tests";
-			productReference = 6A18BDF02E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3Tests.xctest */;
+			productReference = 6AA035CD2E723F890014E454 /* LemmmonRestaurant-Ch3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		6A18BDF92E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3UITests */ = {
@@ -160,7 +159,7 @@
 			packageProductDependencies = (
 			);
 			productName = "LemmmonRestaurant-Ch3UITests";
-			productReference = 6A18BDFA2E6FBB5E00CDAD72 /* LemmmonRestaurant-Ch3UITests.xctest */;
+			productReference = 6AA035CE2E723F890014E454 /* LemmmonRestaurant-Ch3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +195,7 @@
 			mainGroup = 6A18BDDA2E6FBB5D00CDAD72;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6A18BDE42E6FBB5D00CDAD72 /* Products */;
+			productRefGroup = 6A18BDDA2E6FBB5D00CDAD72;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
