@@ -35,3 +35,21 @@ if mainPower == true || batteryPower == true {
 } else {
     print("The device is powered off find a charger.")
 }
+let age = 10
+if age >= 18 && age <= 25 {
+    print("You are eligible for Army")
+}else if age >= 26 && age <= 65 {
+    print("You are eligible for Air Force")
+}else {
+    print("You are qualifuy for other things")
+}
+let Age = 14
+if age ==  14{
+    print("She is sneha ")
+};
+if age == 11{
+    print("James is 11 years old")
+};
+if age == 4{
+    print("twins sister")
+}

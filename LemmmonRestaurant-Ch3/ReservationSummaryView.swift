@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct ReservationSummaryView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    @Binding var name: String
+    @Binding var guests: Int
+        var body: some View {
+        VStack(alignment: .leading, spacing:10){
+            Text("Reservation Summary")
+                .font(.title)
+            Text("Name: \(name)")
+            Text("Guest \(guests)")
+        }
     }
 }
 
-#Preview {
-    ReservationSummaryView()
-}
+//#Preview {
+  //ReservationSummaryView()
+//}
