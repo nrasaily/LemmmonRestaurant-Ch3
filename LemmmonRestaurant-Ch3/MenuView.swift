@@ -40,19 +40,24 @@ struct MenuView: View {
                     .font(.system(size: 32))
                 Text("Today's Menu")
                     .font(.title)
-                
                 }
             Spacer()
-                HStack{
-                    
-                    Text("Show an sprecial text")
-                    Spacer()
+            HStack{
+                Text("Show an sprecial text")
+                Spacer()
+                }
+                Button("View Desserts"){
+                    showDesserts.toggle()
+                }
+                .padding()
+                .font(.title)
+                .font(.headline)
+                .background(Color.green.opacity(0.3))
+                .border(Color.green)
+                .cornerRadius(10)
                 
-            }
-            Button("View Desserts"){
-                showDesserts.toggle()
-            }
-            .padding()
+            
+            
             List(menuItems){ item in
                 MenuItemView(item: item)
                 

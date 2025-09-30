@@ -25,21 +25,34 @@ struct DessertView: View {
     ]
     
     var body: some View {
-        List(dessertMenuItems) { item in
-            HStack{
-                VStack(alignment: .leading){
-                    
-                    
-                    Text(item.name)
-                        .font(.headline)
-                    Text(item.description)
-                        .font(.caption)
-                }
-                Spacer()
-                Text("$\(item.price)")
-            }
-                    
+        VStack (alignment: .leading){
             
+        
+            Text("Desserts")
+                .font(.largeTitle.bold())
+                .foregroundStyle(.purple)
+                .padding(.horizontal)
+                
+            List(dessertMenuItems) { item in
+                HStack{
+                    
+                    VStack(alignment: .leading, spacing: 4){
+                        Text(item.name)
+                            .font(.headline)
+                            .foregroundStyle(.primary)
+                        Text(item.description)
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Text("\(item.price, format: .currency(code: "USD"))")
+                        .font(.subheadline.bold())
+                        .foregroundStyle(.green)
+                        .padding(6)
+                        .background(Color.yellow.opacity(0.2))
+                }
+                
+            }
         }
     }
 }
