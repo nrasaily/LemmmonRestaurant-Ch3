@@ -25,9 +25,10 @@ struct LoginView: View {
                 Button("Log In"){
                     print("Trying to log in")
                     
-                    
-                    isLoggedIn = true
-                    
+                    if userName == "Nar" {
+                        isLoggedIn = true
+                    }
+           
                 }
             }
             .navigationTitle("Login")

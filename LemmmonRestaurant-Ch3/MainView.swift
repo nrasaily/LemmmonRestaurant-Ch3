@@ -17,7 +17,10 @@ struct MainView: View {
                 VStack {
                     Text("Welcome \(userName)")
                         .font(.title)
-                    NavigationLink("About Us", destination: AboutView())
+                    Image("littleLemonLogo")
+//                    NavigationLink("About Us", destination: AboutView())
+                    ReservationForm()
+                    
                     Button("Logout"){
                         print( "Logout")
                         isLoggedIn = false
