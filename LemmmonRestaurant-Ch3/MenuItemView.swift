@@ -16,6 +16,10 @@ struct MenuItemView: View {
                 Text(item.name)
                     .font(.headline)
                 
+                Text(item.description)
+                    .font(.caption)
+                    .foregroundColor(Color.secondary)
+                
                 Text(String(item.price))
                     .foregroundColor(Color.secondary)
                     
@@ -24,19 +28,7 @@ struct MenuItemView: View {
             Spacer()
             // if Statement
             if item.price > 10 {
-                
-                
-                HStack {
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.yellow)
-                    Text("Premium")
-                        .font(.caption)
-                }
-                .font(.caption)
-                .foregroundColor(.orange)
-                .padding(6)
-                .background(.orange.opacity(0.1))
-                .cornerRadius(6)
+                PremiumBadge()
             }
             
             
